@@ -5,7 +5,7 @@ const HtmlWebPackPluging = require('html-webpack-plugin')
 module.exports = {
     mode: "development",
     entry: {
-        home: path.resolve(__dirname, './src/index.js')
+        home: path.resolve(__dirname, './src/js/index.js')
     },
     output:{
         path: path.resolve(__dirname, "dist"),
@@ -31,7 +31,7 @@ module.exports = {
     plugins: [
         new HtmlWebPackPluging({
             inject: true,
-            template: "./index.html", //De donde lo toma
+            template: "./public/index.html", //De donde lo toma
             filename: "./index.html" //Lo pega en el dist con ese nombre
         })
     ]
