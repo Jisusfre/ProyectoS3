@@ -1,40 +1,72 @@
 body{
-    background-color: cadetblue;
-    margin: 0px;
+    background-color: #859194;
+    /* margin: 0px; */
     padding: 0px;
 }
 
 .container{
     display: grid;
-    grid-template-rows: 50px 700px;
+    grid-template-rows: 15% 85%;
+    grid-row-gap: 10px;
+    height: 550px;
+}
 
+.content{
+    size: 100%;
+    display: grid;
+    grid-template-columns: 65% 35%;
 }
 
 #pic{
     background: url('../../images/login.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
 }
-.login{
+
+
+.header{
+    margin: 0px;
+    background-color: #2C3E44;
+    border-radius: 20px;
     display: grid;
-    grid-template-columns: 65% 35%;
-    background-color: chartreuse;
+    grid-template-columns: 20%;
 }
 
-.Header-main{
-    margin: 0px;
-    background-color: grey;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.header a{
+    color: #859194;
+    text-decoration: none;
 }
 
-.Header-main a{
-    margin-left: 30px;
+.Header-logo:hover{
+    background-color: #273044;
 }
 
-.Header-logo h1{
-    margin: 0px;
+.Header-logo{
+    border: #859194 3px solid; 
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+}
 
+.start{
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+form{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+
+}
+
+.start input{
+    border-radius: 5px;
+    border-color: #273044;;
+    background-color: #273044;
 }
 
 /* .header{

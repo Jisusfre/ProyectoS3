@@ -3,5 +3,6 @@
 
  import router from "../routes/route";
 
-router()
+ window.addEventListener("load", router);
+ window.addEventListener("hashchange", router);
 

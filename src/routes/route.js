@@ -1,10 +1,11 @@
 import Login from '../pages/login';
+import Error404 from '../pages/Error404'
 
 import Header from '../templates/header'
 
 //  const routes = {
 //    "/": login,
-// //   "/:id": Character,
+//    "/:id": Home,
 // //   "/contact": "Contact"
 //  };
 
