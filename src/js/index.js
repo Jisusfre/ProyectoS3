@@ -6,7 +6,5 @@
  window.addEventListener("load", router);
  window.addEventListener("hashchange", router);
 
-function validar(){
-     window.location = "./"
- }
+
 

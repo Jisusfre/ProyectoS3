@@ -1,0 +1,136 @@
+
+body{
+    margin: 0px;
+}
+#content{
+    display: auto;
+}
+.contenedor{
+    display:flex;
+}
+
+.menu{
+    width: 200%;
+    height: 1000px;
+    margin-left: 90px;
+    display:flex;
+    background-color: rgb(37, 35, 35);
+    margin: center;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 3em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.titulo{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-family: Insta;
+    font-size: 51px;
+    color:white;
+}
+
+.fotoP{
+    width: 10em;
+    height: 9em;
+    margin-top: 100px;
+    margin-left: -243px;
+    border-radius: 70px;
+}
+
+#add{
+    margin-left: -27px; 
+    color:rgb(37, 35, 35);
+}
+
+.face{
+    font-family: Open-Sans_Semibold;
+    color: rgba(202, 202, 202, 0.76);
+    margin-top: 16em;
+    margin-left: -9em;
+}
+
+.informacion{
+    margin-top: 28em;
+    margin-left: -10em;
+    font-family: Open-Sans_Semibold;
+    color: white;
+}
+
+.fotos{
+    margin-top: 34em;
+    margin-left: -10em;
+    font-family: Open-Sans_Semibold;
+    color: white;
+}
+
+.config{
+    margin-top: 40em;
+    margin-left: -10em;
+    font-family: Open-Sans_Semibold;
+    color: white;
+}
+
+.home{
+    margin-top: 22em;
+    margin-left: -10em;
+    font-family: Open-Sans_Semibold;
+    color: white;
+}
+
+.cuerpo{
+    background-color: rgb(158, 158, 158);
+    border-radius: 15px;
+}
+
+.nombre{
+    font-family: "Insta";
+    margin-left: 50px;
+    font-size: 5em;
+}
+
+.portada{
+    width: 18em;
+    border-radius: 7em;
+    height: 21em;
+    margin-top: 0%;
+    margin-left: 32%;
+}
+
+.seguidores{
+    font-family: "Open-Sans_Extrabold";
+    color: white;
+    font-size: 3em;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.seguidos{
+    font-family: "Open-Sans_Extrabold";
+    color: white;
+    font-size: 3em;
+    margin-top: -13%;
+    margin-left: 63%;
+}
+
+
+.agregarImg{
+    width: 9em;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+
+.agregarF{
+    font-family: "Open-Sans_Extrabold";
+    margin-left: 41%;
+    font-size: 2em;
+}
+
+.menu a{
+    text-decoration: none;
+}

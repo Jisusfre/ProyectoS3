@@ -6,9 +6,11 @@ const Login = () => {
         </div> 
         <div class = "start">
             <h1>INICIAR SESION</h1>
+            <form action = "#/:id">
                 <input type="text" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
-                <button onclick="validar()" id = "boton"></button>
+                <input type="submit" value = "START">
+            </form>
         </div> 
     `;
     return view;
