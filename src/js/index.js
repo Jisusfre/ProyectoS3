@@ -1,2 +1,7 @@
-import '../styles/css/style.css'
-//Wuuu
+
+
+
+ import router from "../routes/route";
+
+router()
+
